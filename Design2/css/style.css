@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.second-container {
+    background-color: #F8F8FF;
+    padding: 0% 10% 0% 10%; 
+}
+
+.third-container{
+    background: url(../img/Rectangle\ 8.png);
+    filter: brightness(55%);
+    z-index: 0;
+    padding: 0% 10% 0% 10%;
+}
+
+nav{
+    margin-top: 20px;
+    margin-bottom: 20PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    font-weight: 600;
+    opacity: 90%;
+}
+
+.logo{
+    width: 41px;
+    height: 45px;
+}
+.nav-title{
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.registration{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login {
+    color: #8C82FC;
+}
+
+.signup {
+    background-color: #8C82FC;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.burger-menu{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 40px;
+}
+
+.hero-section{
+    margin-top: 9%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hero-title{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 25px;
+}
+
+.hero-header{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-header > img{
+    display: flex;
+    height: 545px;
+    margin: auto;
+    width: auto;
+}
+
+.title-main{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.button-hero{
+    display: flex;
+    gap: 15px;
+}
+
+.get-started{
+    background-color: #8C82FC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.our-service {
+    background-color: #F7F7FD;
+    color:#A2B3BF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.tagline{
+    color: #8C82FC;
+    letter-spacing: 5px;
+}
+
+.second-tagline {
+    color: #8C82FC;
+}
+
+.title-learnings{
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title-learnings > h2{
+    margin-bottom: 10px;
+    font-size: 44px;
+}
+
+.card-learnings{
+    display: flex;
+    padding-bottom: 50px;
+    gap: 45px;
+}
+
+.card-sub{
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 65%;
+    margin: auto;
+}
+
+.card-sub:nth-child(3){
+    background-color: #8C82FC;
+    color: white;
+}
+
+.card-text{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-sub a{
+    text-align: center;
+    background-color: #44E4C9;
+    padding: 5px 25px;
+    color: white;
+    display: block;
+    width: 70%;
+    border-radius: 6px;
+    margin: auto;
+}
+
+.about{
+    margin-top: 50px;
+    display: flex;
+    gap: 120px;
+}
+
+.img-about img{
+    width: 100%;
+}
+
+.distance{
+    padding-bottom: 20px;
+}
+
+.text-about{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.text-about h2{
+    font-size: 44px;
+}
+
+.sub-text-about{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.sub-text-about > img{
+    width: 50px !important;
+}
+
+.title-companies{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 45px;
+}
+
+.title-companies h2{
+    font-size: 44px;
+}
+
+.companies-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.logo-one{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+img.redis{
+    object-fit: contain;
+}
+
+img.amazon{
+    object-fit: cover;
+    object-position: center;
+}
+
+.logo-two{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.logo-mobile{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-testimonials{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 10px;
+}
+
+.top {
+    font-weight: 600;
+}
+
+.title-testimonials h1{
+    font-size: 40px;
+}
+
+.title-testimonials p{
+    font-size: 24px;
+}
+
+fieldset {
+    padding: 50px 15px;
+    border-color: #8C82FC;
+    border-radius: 10px;
+}
+
+legend {
+    text-align: center;
+}
+
+.content-testimonial{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+.sub-content-testimonials{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonial-comment{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.testimonial-comment > p:nth-child(2){
+    color: #BAB8D2;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.testimonial-comment>p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-contact{
+    padding-top: 70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.button-contact{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.button-contact a:nth-child(1){
+    background-color: #8C82FC;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.button-contact a:nth-child(2){
+    color: white;
+}
+
+.button-contact a:nth-child(2):hover{
+    color: #8C82FC;
+    border-bottom: 2px solid white;
+}
+
+.button-contact a:nth-child(1):hover{
+    background-color: #44E4C9;
+}
+
+.first-footer img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.wraper{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.first-footer{
+    width: 40%;
+}
+
+.first-footer p{
+    margin-top: 20px;
+}
+
+.second-footer{
+    display: flex;
+    gap: 20px;
+    width: 60%;
+}
+
+.information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.information p img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.information:nth-child(3) p:nth-child(2), .information:nth-child(3) p:nth-child(3){
+    color: #8C82FC;
+}
+
+.information:nth-child(3) p:nth-child(4){
+    font-weight: 600;
+}
+
+.title-footer{
+    font-weight: bold;
+    border-bottom: 2px solid #8C82FC;
+    width: max-content;
+}
+
+
+@media only screen and (max-width: 900px) {
+    ul.menu{
+        display: none;
+    }
+    .registration{
+        display: none;
+    }
+
+    .hero-title{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-header{
+        width: 100%;
+    }
+
+    .hero-header > img{
+        width: 300px;
+        height: auto;
+        margin: auto;
+    }
+    .card-learnings{
+        flex-direction: column;
+    }
+
+    .title-learnings{
+        width: 100%;
+    }
+    .title-learnings h2{
+        font-size: 30px;
+    }
+    .about{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .text-about{
+        width: 100%;
+    }
+    .text-about h2{
+        font-size: 28px;
+    }
+    .title-companies h2{
+        font-size: 28px;
+    }
+    .logo-one{
+        flex-direction: column;
+    }
+    .logo-two{
+        flex-direction: column;
+    }
+    .content-testimonial{
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    fieldset{
+        width: 60%;
+        margin: auto;
+    }
+    .wraper{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .first-footer{
+        margin: auto;
+        width: 90%;
+    }
+    .second-footer{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .card-sub{
+        width: 80%;
+    }
+    
+    fieldset{
+        width: 80%;
+    }
+
+    .second-footer{
+        flex-direction: column;
+    }
+
+    .information{
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .burger-menu{
+        display: none;
+    }
+}

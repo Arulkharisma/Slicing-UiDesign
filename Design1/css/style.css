@@ -68,6 +68,11 @@ nav .menu-item {
    
 }
 
+.nav-sign-up:hover{
+    background-color: #001AFF;
+    color: white;
+}
+
 nav .menu-item:hover {
     border-bottom: 1px solid black;
 }
