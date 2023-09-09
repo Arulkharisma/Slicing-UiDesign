@@ -4,17 +4,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html, body{
-    height: 100%;
+html{
+    height: 120vh;
 }
 
 body{
     background: linear-gradient(90deg, #0500FF 0.52%, #F8FB76 35.41%, #4EFF75 63.63%, #00FFD1 99.03%);
     backdrop-filter: blur(125px);
+    height: 120vh;
+    background-repeat: no-repeat;
 }
 
 .background2{
-    height: auto;
+    height: 120vh;
     width: 100%;
     background: rgba(247, 250, 255, 0.9);
     backdrop-filter: blur(125px);
@@ -65,7 +67,6 @@ nav .menu-item {
     border-radius: 3px;
     color: black;
     font-weight: 600;
-   
 }
 
 .nav-sign-up:hover{
@@ -106,7 +107,6 @@ section .container{
     margin-bottom: 40px;
 }
 
-
 .content{
     display: flex;
     flex-direction: column;
@@ -137,7 +137,7 @@ section .container{
     border-bottom: 1px solid #001AFF;
 }
 
-section .container{
+ .container section{
     display: flex;
     margin-right: 15%;
     margin-left: 15%;
@@ -168,15 +168,12 @@ section .container{
 
 }
 
-
-
 .content-active{
     background-color: #3648e8;
     padding: 25px;
     box-shadow: 0px 30px 60px rgba(0, 26, 255, 0.1);
     border-radius: 8px;
     margin-bottom: 30px;
-    
 }
 
 .title-content {
@@ -184,11 +181,15 @@ section .container{
    color: #fff;
 }
 
-.title-content2 {
-    font-weight: 600;
-    color: #000;
+.content-job{
+    color: black;
+    font-weight: bold;
 }
 
+.content-job-second > p{
+    color: white;
+    font-weight: 600;
+}
 
 .header{
     display: flex;
@@ -203,15 +204,8 @@ section .container{
     font-size: 14px;
 }
 
-.subtitle-content2 {
-    font-weight: 400;
-    color: #000;
-    opacity: 80%;
-    font-size: 14px;
-}
-
 .description-job{
-    color: #fff;
+    color: black;
     margin-top: 20px;
     line-height: 25px;
     font-size: 16px;
@@ -219,8 +213,8 @@ section .container{
     opacity: 80%;
 }
 
-.description-job2 {
-    color: #000;
+.description-job2{
+    color: white;
     margin-top: 20px;
     line-height: 25px;
     font-size: 16px;
@@ -234,21 +228,6 @@ section .container{
     justify-content: space-between;
 }
 
-.job-footer2 {
-    display: flex;
-    margin-top: 25px;
-    justify-content: space-between;
-}
-
-.job-footer3 {
-    display: flex;
-    margin-top: 25px;
-    justify-content: space-between;
-}
-
-.content-job2{
-    justify-content: flex-start;
-}
 
 .btn-job{
     display: flex;
@@ -259,23 +238,6 @@ section .container{
     font-weight: 600;
 }
 
-.btn-job2 {
-    display: flex;
-    align-items: center;
-    background-color: #001AFF;
-    padding: 3px 12px;
-    border-radius: 80px;
-    color: #fff;
-    font-weight: 600;
-}
-
-.btn-job3 {
-    background-color: #001AFF;
-    padding: 3px 12px;
-    border-radius: 80px;
-    color: #fff;
-    font-weight: 600;
-}
 .contentjob-footer{
     padding: 25px;
     background: rgba(255, 255, 255, 0.6);
@@ -284,6 +246,3 @@ section .container{
     margin-bottom: 30px;
     gap: 20px;
 }
-
-
-
