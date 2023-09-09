@@ -22,15 +22,24 @@ body{
 }
 
 .third-container{
-    background: url(../img/Rectangle\ 8.png);
-    filter: brightness(55%);
-    z-index: 0;
+    /* filter: brightness(55%); */
+    background-image: url(../img/Rectangle\ 8.png);
     padding: 0% 10% 0% 10%;
 }
 
+header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); */
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+}
+
 nav{
-    margin-top: 20px;
-    margin-bottom: 20PX;
+    margin-top: 10px;
+    margin-bottom: 10PX;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -234,6 +243,10 @@ a{
 
 .sub-text-about > img{
     width: 50px !important;
+}
+
+.sub-text-about p{
+    width: 100%;
 }
 
 .title-companies{
@@ -442,7 +455,7 @@ legend {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 923px) {
     ul.menu{
         display: none;
     }
@@ -458,10 +471,11 @@ legend {
     .hero-section {
         flex-direction: column;
         gap: 30px;
+        margin-bottom: 30px;
     }
 
     .hero-header{
-        width: 100%;
+        display: none;
     }
 
     .hero-header > img{
@@ -528,6 +542,10 @@ legend {
     .card-sub{
         width: 80%;
     }
+
+    .hero-title{
+        margin-bottom: 30px;
+    }
     
     fieldset{
         width: 80%;
@@ -542,7 +560,7 @@ legend {
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 923px) {
     .burger-menu{
         display: none;
     }
