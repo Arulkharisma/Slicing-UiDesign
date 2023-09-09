@@ -53,6 +53,10 @@ a{
     opacity: 90%;
 }
 
+a:hover{
+    border-bottom:1px solid #8C82FC;
+}
+
 .logo{
     width: 41px;
     height: 45px;
