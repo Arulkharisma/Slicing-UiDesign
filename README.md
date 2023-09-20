@@ -1,6 +1,6 @@
 ## Hasil Slicing Ui Design
 
-Repository GitHub ini berisi hasil belajar saya dalam slicing UI dari **codedesign.dev**.
+Repository GitHub ini berisi hasil belajar saya dalam slicing UI dari **codedesign.dev**
 
 **1. Design Pertama**
 
@@ -9,5 +9,4 @@ Repository GitHub ini berisi hasil belajar saya dalam slicing UI dari **codedesi
 **2. Design kedua**
 
 ![Design 1](assets/img/Design2.png)
-
 
