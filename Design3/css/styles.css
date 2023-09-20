@@ -78,6 +78,7 @@ ul li > a:hover{
     padding: 6px 17px;
     background-color: #FFCA1D;
     border-radius: 6px;
+    color: black;
 }
 
 .wrapper{
@@ -328,6 +329,7 @@ ul li > a:hover{
 
 .third-features a{
     padding: 8px 30px;
+    color: black;
     background-color: #FFCA1D;
     border-radius: 8px;
     font-weight: bold;
@@ -411,6 +413,7 @@ ul li > a:hover{
     padding: 10px 20px;
     background-color: #FFCA1D;
     border-radius: 7px;
+    color: black;
 }
 
 .six-features-text h2 > span{
