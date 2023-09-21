@@ -369,6 +369,7 @@ ul li > a:hover{
     display: flex;
     gap: 100px;
     padding-top: 50px;
+    padding-bottom: 50px;
     align-items: center;
 }
 .container:nth-child(8){
