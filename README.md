@@ -2,7 +2,7 @@
 
 Repository GitHub ini berisi hasil belajar saya dalam slicing UI dari **codedesign.dev**
 
-## 1. Design Pertama(Sudah Responsive)
+## 1. Design Pertama(Belum Responsive)
 
 ![Design 1](assets/img/Design1.png)
 
