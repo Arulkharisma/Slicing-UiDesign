@@ -31,7 +31,7 @@ li>a {
 }
 
 main {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: #E4EFFF;
 }
 
@@ -53,12 +53,11 @@ main {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .container:nth-child(2) {
-    background-image: url(/assets/img/Rectangle\ 3.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    
 }
 
 .nav-logo {
@@ -135,4 +134,25 @@ main {
 .btn-hero img {
     vertical-align: middle;
     margin-right: 5px;
+}
+
+.title-market h4{
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.market{
+    display: flex;
+    gap: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.market-content{
+    padding: 50px;
+    background-color: #001533;
+    border-radius: 13px;
 }
