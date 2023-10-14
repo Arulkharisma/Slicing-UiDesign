@@ -33,6 +33,7 @@ li>a {
 main {
     /* min-height: 100vh; */
     background-color: #E4EFFF;
+    padding-bottom: 50px;
 }
 
 .nav-btn>a {
@@ -56,9 +57,21 @@ main {
     padding-top: 20px;
 }
 
-.container:nth-child(2) {
-    
+.container:nth-child(2){
+    /* background-image: url(../assets/img/Rectangle\ 620.png);
+    background-repeat: no-repeat; */
+    /* background-position: left; */
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(228, 239, 255, 1) 20%);
+    padding-bottom: 120px;
 }
+
+.container:nth-child(3){
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #ffffff ;
+}
+
 
 .nav-logo {
     display: flex;
@@ -79,11 +92,15 @@ main {
     align-items: center;
     margin-left: 20px;
 }
+.nav-btn a:hover{
+    background-color: #001533;
+    color: white;
+    transition: .4s all;
+}
 
 .hero-section {
-    gap: 50px;
-    margin-top: 50px;
     display: flex;
+    gap: 50px;
     align-items: center;
     justify-content: space-between;
 }
@@ -137,6 +154,7 @@ main {
 }
 
 .title-market h4{
+    margin-top: 35px;
     text-align: center;
     width: 35%;
     margin: auto;
@@ -146,7 +164,7 @@ main {
 
 .market{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     color: white;
     margin-bottom: 20px;
 }
@@ -155,4 +173,72 @@ main {
     padding: 50px;
     background-color: #001533;
     border-radius: 13px;
+}
+
+.market-content:nth-child(2), .market-content:nth-child(3){
+    background-color: white;
+    color: black;
+    box-shadow: 10px 12px 18px -19px rgba(0, 0, 0, 1);
+    color: #001533;
+}
+.market-content >p{
+    color: #697B98;
+}
+
+.market-content:nth-child(2):hover, .market-content:nth-child(3):hover{
+    background-color: #001533;
+    color: white;
+    transition: .4s all;
+}
+
+.template-design{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+ul.square{
+    padding-left: 18px;
+}
+
+ul.square >li{
+    list-style-type: square;
+    /* font-size: 30px; */
+    padding-left: 18px;
+    margin-bottom: 10px;
+    color: #3B82F6;
+    font-weight: bold;
+}
+
+li::marker{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+ul.square li >span.normal{
+    color: #193766;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul.square li>span.bold-text{
+    font-size: 17px;
+    font-weight: bold;
+}
+.description-template-design{
+    margin-top: 50px;
+}
+
+.image-template-design img{
+    max-height: 600px;
+    /* min-height: 500px; */
+}
+
+.description-template-design p{
+    color: #697B98;
+}
+
+.description-template-design h1{
+    color: #193766;
 }
