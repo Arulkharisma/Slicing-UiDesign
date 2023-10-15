@@ -58,20 +58,24 @@ main {
 }
 
 .container:nth-child(2){
-    /* background-image: url(../assets/img/Rectangle\ 620.png);
-    background-repeat: no-repeat; */
-    /* background-position: left; */
-    background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(228, 239, 255, 1) 20%);
+    background: url(../assets/img/Rectangle\ 620.png), rgb(255, 255, 255) linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(228, 239, 255, 1) 20%);
+    background-repeat: no-repeat;
+    background-position: left;
     padding-bottom: 120px;
 }
 
 .container:nth-child(3){
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #ffffff ;
+    background: url(../assets/img/Rectangle\ 621.png) right bottom no-repeat, url(../assets/img/Rectangle\ 622.png) right top no-repeat, rgba(255, 255, 255, 1) ;
+    background-size: 400px, auto;
 }
 
+.container:nth-child(4){
+    background: url(../assets/img/Rectangle\ 623.png) left bottom no-repeat, url(../assets/img/Rectangle\ 624.png) left center no-repeat, rgba(255, 255, 255, 1);
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .nav-logo {
     display: flex;
@@ -106,7 +110,7 @@ main {
 }
 
 .image-hero img {
-    width: 650px;
+    max-width: 650px;
 }
 
 .title-hero h1 {
@@ -191,11 +195,10 @@ main {
     transition: .4s all;
 }
 
-.template-design{
+.template-design, .second-template-design{
     display: flex;
     gap: 30px;
     justify-content: center;
-    width: 100%;
 }
 
 ul.square{
@@ -226,19 +229,26 @@ ul.square li>span.bold-text{
     font-size: 17px;
     font-weight: bold;
 }
-.description-template-design{
+.description-template-design, .second-description-template{
     margin-top: 50px;
 }
 
 .image-template-design img{
     max-height: 600px;
-    /* min-height: 500px; */
 }
 
-.description-template-design p{
+.description-template-design h1 >span, .second-template-design h1 > span{
+    border-bottom:2px solid #193766;
+}
+
+.description-template-design p, .second-template-design p{
     color: #697B98;
 }
 
-.description-template-design h1{
+.description-template-design h1, .second-template-design h1{
     color: #193766;
+}
+
+.second-template-design{
+    padding-top: 100px;
 }
