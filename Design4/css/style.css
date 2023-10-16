@@ -51,6 +51,12 @@ main {
     padding-right: 12%;
 }
 
+.hero-container{
+    padding-top: 50px;
+    padding-left: 12%;
+    padding-right: 5%;
+    background-color: #E4EFFF;
+}
 .container:nth-child(1) {
     align-items: center;
     display: flex;
@@ -76,6 +82,21 @@ main {
 .container:nth-child(4){
     background: url(../assets/img/Rectangle\ 623.png) left bottom no-repeat, url(../assets/img/Rectangle\ 624.png) left center no-repeat, rgba(255, 255, 255, 1);
     padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container:nth-child(6){
+    padding-top: 100px;
+    background-image: url(../assets/img/Rectangle\ 631.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.container:nth-child(7){
+    background-image: url(../assets/img/Rectangle\ 634.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
     padding-right: 10%;
 }
 
@@ -301,4 +322,80 @@ section {
 
 .preview {
     background-color: #001533;
+}
+
+.posts{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.btn-item >a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-posts{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.btn-item:nth-child(1) a{
+    color: white;
+}
+
+.btn-item {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #C6DBFF;
+    box-shadow: 10px 10px 29px -27px rgba(0, 0, 0, 0.75);
+    width: 70%;
+}
+
+.btn-item:nth-child(1){
+    background-color: #3B82F6;
+    box-shadow: 10px 10px 29px -10px rgba(59, 130, 246, 1);
+}
+
+.title-post h1{
+    color: #193766;
+}
+
+.title-post h1>span{
+    border-bottom: 2px solid #193766;
+}
+.title-post p{
+    margin-bottom: 50px;
+    color: #697B98;
+}
+
+.license{
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.license-item{
+    display: flex;
+    gap: 25px;
+}
+
+.license-item img{
+    object-fit: contain;
+}
+
+.license-description a{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    text-decoration: none;
+    margin-top: 25px;
+    border: 2px solid #3B82F6;
+    padding: 15px 25px;
+    border-radius: 6px;
+    gap: 15px;
 }
