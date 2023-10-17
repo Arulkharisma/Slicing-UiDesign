@@ -399,3 +399,59 @@ section {
     border-radius: 6px;
     gap: 15px;
 }
+
+.donwload a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: blue;
+    display: flex;
+    width: max-content;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.btn-donwload{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.btn-donwload a{
+    margin: 0;
+    align-items: center;
+}
+
+.btn-donwload a img{
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.btn-donwload a:nth-child(1){
+    color: white;
+    background-color: #3B82F6;
+    box-shadow: 10px 10px 15px -9px rgba(59, 130, 246, 1);
+}
+
+.btn-donwload a:nth-child(2){
+    box-shadow: 10px 10px 15px -9px rgba(29, 161, 242, 1);
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.donwload h1{
+    color: #193766;
+}
+
+.donwload p{
+    color:#697B98 ;
+    padding-bottom: 15px;
+}
+
+.donwload h1, .donwload p{
+    text-align: center;
+}
