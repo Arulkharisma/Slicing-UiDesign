@@ -13,3 +13,7 @@ Repository GitHub ini berisi hasil belajar saya dalam slicing UI dari **codedesi
 ## 3. Design Ketiga (Belum Responsive)
 
 ![Design 3](assets/img/design%203.png)
+
+## 4. Design Keempat (Belum Responsive)
+
+![Design 4](assets/img/design4.png)
