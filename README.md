@@ -1,6 +1,7 @@
 ## Hasil Slicing Ui Design
 
-Repository GitHub ini berisi hasil belajar saya dalam slicing UI dari **codedesign.dev**
+Repository GitHub ini berisi hasil belajar saya dalam slicing UI dari **codedesign.dev** 
+menggunakan HTML dan CSS murni(Vanila CSS). 
 
 ## 1. Design Pertama(Belum Responsive)
 
