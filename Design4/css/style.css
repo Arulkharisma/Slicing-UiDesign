@@ -25,6 +25,10 @@ nav {
     display: flex;
 }
 
+.nav-list ul >li:hover{
+    border-bottom: 2px solid #193766;
+}
+
 li>a {
     text-decoration: none;
     color: #001533;
@@ -34,7 +38,7 @@ li>a {
 main {
     /* min-height: 100vh; */
     background-color: #FFFFFF;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .nav-btn>a {
@@ -200,6 +204,7 @@ main {
     padding: 50px;
     background-color: #001533;
     border-radius: 13px;
+    cursor: pointer;
 }
 
 .market-content:nth-child(2), .market-content:nth-child(3){
@@ -454,4 +459,46 @@ section {
 
 .donwload h1, .donwload p{
     text-align: center;
+}
+
+footer{
+    background-color: #193766;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer {
+    padding-left: 12%;
+    padding-right: 12%;   
+    color: white; 
+    opacity: 80%;
+    display: flex;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
+
+.description-footer{
+    width: 50%;
+}
+
+.footer-list{
+    padding-left:0 ;
+    margin-right: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title-footer{
+    margin-top: 0;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+    width: max-content;
+}
+
+.container-footer-second{
+    padding-left: 12%;
+    padding-right: 12%;
 }
